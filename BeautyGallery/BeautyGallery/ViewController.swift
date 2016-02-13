@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var beautyPicker: UIPickerView!
     
-    let beauties = ["范冰冰", "李冰冰", "杨幂", "王菲", "周迅"]
+    let beauties = ["范冰冰", "李冰冰", "王菲", "杨幂", "周迅"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,11 +38,11 @@ class ViewController: UIViewController {
             
             
             switch index{
-                case 0 : imageName = "fangbingbing"
-                case 1 : imageName = "libingbing"
-                case 2 : imageName = "wangfei"
-                case 3 : imageName = "yangmi"
-                case 4 : imageName = "zhouxu"
+                case 0 : imageName = "范冰冰"
+                case 1 : imageName = "李冰冰"
+                case 2 : imageName = "王菲"
+                case 3 : imageName = "杨幂"
+                case 4 : imageName = "周迅"
                 default : imageName = nil
             }
         

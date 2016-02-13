@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Social
+
 class GarreryViewController: UIViewController {
     
     var imageName: String?
@@ -15,9 +17,11 @@ class GarreryViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        if imageName != nil{
-            beautyimage.image = UIImage(named: imageName!)
+        if let name = imageName{
+            beautyimage.image = UIImage(named: name)
+            navigationItem.title = name
         }
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -30,6 +34,12 @@ class GarreryViewController: UIViewController {
     }
     
     
+    @IBAction func shareTapped(sender: AnyObject) {
+        let controller:SLComposeViewController = SLComposeViewController(forServiceType: SLServiceTypeTwitter);
+        controller.setInitialText("一起来玩女生画廊吧");
+        controller.addImage(beautyimage.image);
+        self.presentViewController(controller, animated: true, completion: nil);
+    }
         
 }
 
