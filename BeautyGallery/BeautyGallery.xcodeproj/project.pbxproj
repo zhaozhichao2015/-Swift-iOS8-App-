@@ -16,6 +16,7 @@
 		4C08BC0F1C6ECCB9008E624B /* BeautyGalleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C08BC0E1C6ECCB9008E624B /* BeautyGalleryUITests.swift */; };
 		4C08BC1D1C6ED373008E624B /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C08BC1C1C6ED373008E624B /* ViewControllerExtension.swift */; };
 		4C08BC1F1C6EE26A008E624B /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C08BC1E1C6EE26A008E624B /* GalleryViewController.swift */; };
+		4CD729EA1C6FEED900D1C679 /* KoreanGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD729E91C6FEED900D1C679 /* KoreanGallery.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4C08BC101C6ECCB9008E624B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C08BC1C1C6ED373008E624B /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
 		4C08BC1E1C6EE26A008E624B /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		4CD729E91C6FEED900D1C679 /* KoreanGallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreanGallery.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				4C08BBEE1C6ECCB9008E624B /* AppDelegate.swift */,
+				4CD729E91C6FEED900D1C679 /* KoreanGallery.swift */,
 				4C08BBF01C6ECCB9008E624B /* ViewController.swift */,
 				4C08BC1C1C6ED373008E624B /* ViewControllerExtension.swift */,
 				4C08BC1E1C6EE26A008E624B /* GalleryViewController.swift */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CD729EA1C6FEED900D1C679 /* KoreanGallery.swift in Sources */,
 				4C08BBF11C6ECCB9008E624B /* ViewController.swift in Sources */,
 				4C08BC1F1C6EE26A008E624B /* GalleryViewController.swift in Sources */,
 				4C08BBEF1C6ECCB9008E624B /* AppDelegate.swift in Sources */,
@@ -493,6 +497,7 @@
 				4C08BC151C6ECCB9008E624B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C08BC161C6ECCB9008E624B /* Build configuration list for PBXNativeTarget "BeautyGalleryTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +506,7 @@
 				4C08BC181C6ECCB9008E624B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C08BC191C6ECCB9008E624B /* Build configuration list for PBXNativeTarget "BeautyGalleryUITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +515,7 @@
 				4C08BC1B1C6ECCB9008E624B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
